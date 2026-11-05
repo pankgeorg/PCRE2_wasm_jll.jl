@@ -1,6 +1,6 @@
 [PCRE2_wasm]
-git-tree-sha1 = "6fc67893fb4fafa6a4cf521633675f2627686c8c"
+git-tree-sha1 = "ba75a42ff64da39fa3e81dd5a8b6aa502c3f2045"
 
     [[PCRE2_wasm.download]]
-    sha256 = "675d01a94bdcc81f336a1713178ac508074ccb5a27541b951d0138c371801171"
-    url = "https://github.com/pankgeorg/PCRE2_wasm_jll.jl/releases/download/PCRE2-v10.47.0+0/PCRE2_wasm.v10.47.0.any.tar.gz"
+    sha256 = "7078af747e1e08f55dd0b53a72aaa299e1551590242ba288bae98b6bc3a2a8af"
+    url = "https://github.com/pankgeorg/PCRE2_wasm_jll.jl/releases/download/PCRE2-v10.47.0+1/PCRE2_wasm.v10.47.0.any.tar.gz"
