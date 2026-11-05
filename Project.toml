@@ -1,4 +1,4 @@
-version = "10.46.0+0"
+version = "10.47.0+0"
 name = "PCRE2_wasm_jll"
 uuid = "8ba14a24-31f9-58b7-aede-60c6b67cf7b6"
 
