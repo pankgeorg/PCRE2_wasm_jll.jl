@@ -17,6 +17,10 @@ const V = pkgversion(PCRE2_wasm_jll)
         @test artifact_meta("PCRE2_wasm", TOMLFILE; platform = p)["git-tree-sha1"] == ENTRY["git-tree-sha1"]
     end
 
+    # the standalone module: wasm, beside the wasm32 archive
+    @test libpcre2_8_wasm32_wasm == joinpath(dir, "wasm32-wasip1", "lib", "libpcre2-8.wasm")
+    @test read(libpcre2_8_wasm32_wasm)[1:4] == codeunits("\0asm")
+
     for (archive, manifest, flavour, abi) in (
             (libpcre2_8_wasm32_a, wasm_provider_wasm32, "wasm32-wasip1", "wasm32-wasip1-ilp32-v0"),
             (libpcre2_8_wasm64_a, wasm_provider_wasm64, "wasm64-unknown-unknown", "wasm64-lp64-freestanding-v0"))
